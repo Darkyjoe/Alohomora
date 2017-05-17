@@ -1,0 +1,11 @@
+platform_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PlatformBundle:Default:index }
+    
+hello_world:
+    path: /helloworld
+    defaults: {_controller: PlatformBundle:Advert:index }
+
+bye:
+    path: /bye
+    defaults: {_controller: PlatformBundle:Advert:bye}
