@@ -38,7 +38,7 @@ class AdvertController extends Controller
     $content = $this
 		->get('templating')
 		->render('PlatformBundle:Advert:index.html.twig',array(
-			'nom'=>'arthur')
+			'nom'=>'arthur', 'prenom'=>"Jojo")
 		);	
     return new Response($content);
     }
