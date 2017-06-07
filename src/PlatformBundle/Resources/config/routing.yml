@@ -1,0 +1,11 @@
+platform_home:
+    path:      /platform
+    defaults: { _controller: PlatformBundle:Advert:index }
+    
+platform_view:
+    path:      /platform/advert/{id}
+    defaults: { _controller: PlatformBundle:Advert:view }
+    
+platform_add:
+    path:      /platform/add
+    defaults: { _controller: PlatformBundle:Advert:add }
