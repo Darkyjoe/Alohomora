@@ -1,11 +1,11 @@
-platform_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: PlatformBundle:Default:index }
+platform_home:
+    path:      /platform
+    defaults: { _controller: PlatformBundle:Advert:index }
     
-hello_world:
-    path: /helloworld
-    defaults: {_controller: PlatformBundle:Advert:index }
-
-bye:
-    path: /bye
-    defaults: {_controller: PlatformBundle:Advert:bye}
+platform_view:
+    path:      /platform/advert/{id}
+    defaults: { _controller: PlatformBundle:Advert:view }
+    
+platform_add:
+    path:      /platform/add
+    defaults: { _controller: PlatformBundle:Advert:add }
